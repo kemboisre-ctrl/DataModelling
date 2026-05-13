@@ -73,12 +73,6 @@ Implementação do Star Schema:
  -  Adicionar lineage do Unity Catalog e tags de governança
 
 
-## Sobre Este Projeto
-  Construído como peça de portfólio para demonstrar skills end-to-end de engenharia de dados:
-  desde padrões resilientes de ingestão até modelagem dimensional pronta para analytics
-  na plataforma Databricks Lakehouse.
-
-
 
 
 
