@@ -108,10 +108,10 @@ Estrutura do Projeto
 
 
 Próximos Passos / Evoluções
-Implementar SCD Tipo 2 para rastreamento histórico de clientes
-Adicionar Great Expectations / dbt tests para assertions de qualidade
-Migrar para Delta Live Tables (DLT) para pipelines declarativos
-Adicionar lineage do Unity Catalog e tags de governança
+ Implementar SCD Tipo 2 para rastreamento histórico de clientes
+ Adicionar Great Expectations / dbt tests para assertions de qualidade
+ Migrar para Delta Live Tables (DLT) para pipelines declarativos
+ Adicionar lineage do Unity Catalog e tags de governança
 
 
 Sobre Este Projeto
