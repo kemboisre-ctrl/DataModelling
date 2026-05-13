@@ -65,7 +65,6 @@ Implementação do Star Schema:
 - Fact table faz join com todas as dimensões para queries analíticas
 
 
-## Estrutura do Projeto
 
  ### Próximos Passos / Evoluções
   Implementar SCD Tipo 2 para rastreamento histórico de clientes
