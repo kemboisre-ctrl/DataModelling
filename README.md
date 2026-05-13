@@ -66,7 +66,7 @@ Implementação do Star Schema:
 
 ---
 
-## Destaques Técnicos para Recrutadores
+## Destaques Técnicos
 
 | Feature                    | O Que Demonstra |
 |---------                   |---------------|
