@@ -64,19 +64,24 @@ Implementação do Star Schema:
 - SCD Tipo 0 (dimensões estáticas) — pronto para extensão para SCD Tipo 2
 - Fact table faz join com todas as dimensões para queries analíticas
 
-Estrutura do Projeto
+
+## Estrutura do Projeto
+
+# Próximos Passos / Evoluções
+ ### Implementar SCD Tipo 2 para rastreamento histórico de clientes
+ ### Adicionar Great Expectations / dbt tests para assertions de qualidade
+ ### Migrar para Delta Live Tables (DLT) para pipelines declarativos
+ ### Adicionar lineage do Unity Catalog e tags de governança
 
 
-Próximos Passos / Evoluções
- Implementar SCD Tipo 2 para rastreamento histórico de clientes
- Adicionar Great Expectations / dbt tests para assertions de qualidade
- Migrar para Delta Live Tables (DLT) para pipelines declarativos
- Adicionar lineage do Unity Catalog e tags de governança
-
-
- Sobre Este Projeto
+## Sobre Este Projeto
   Construído como peça de portfólio para demonstrar skills end-to-end de engenharia de dados:
-  desde padrões resilientes de ingestão até modelagem dimensional pronta para analytics na plataforma Databricks Lakehouse.
+  desde padrões resilientes de ingestão até modelagem dimensional pronta para analytics
+  na plataforma Databricks Lakehouse.
+
+
+
+
 
 
 ---
@@ -112,10 +117,6 @@ JOIN datamodeling.gold.DimProducts p
     ON f.dimProductKey = p.dimProductKey
 GROUP BY p.product_category
 ORDER BY total_revenue DESC;
+--
+          
 
----
-
----
-
-
----
