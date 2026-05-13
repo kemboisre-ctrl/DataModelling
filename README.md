@@ -66,18 +66,7 @@ Implementação do Star Schema:
 
 ---
 
-## Destaques Técnicos
 
-| Feature                    | O Que Demonstra |
-|---------                   |---------------|
-| Watermark Incremental      | Entendimento de padrões de produção, não apenas full loads |
-| Tratamento de Dados Sujos  | Capacidade de construir pipelines resilientes |
-| Precisão Decimal           | Conhecimento de que dados financeiros não podem usar floats |
-| Surrogate Keys             | Domínio de modelagem dimensional Kimball |
-| Colunas de Auditoria       | Preocupação com lineage e observabilidade de dados |
-| Delta Lake                 | Trabalho com padrões modernos de lakehouse |
-
----
 
 ## Como Executar
 
@@ -115,3 +104,14 @@ ORDER BY total_revenue DESC;
 ---
 
 ## Estrutura do Projeto
+
+
+Próximos Passos / Evoluções
+Implementar SCD Tipo 2 para rastreamento histórico de clientes
+Adicionar Great Expectations / dbt tests para assertions de qualidade
+Migrar para Delta Live Tables (DLT) para pipelines declarativos
+Adicionar lineage do Unity Catalog e tags de governança
+
+
+Sobre Este Projeto
+Construído como peça de portfólio para demonstrar skills end-to-end de engenharia de dados: desde padrões resilientes de ingestão até modelagem dimensional pronta para analytics na plataforma Databricks Lakehouse.
